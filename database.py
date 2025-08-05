@@ -16,11 +16,13 @@ def init_db():
 
 
 def add_transaction(amount, category, description, type):
+    if type not in ['income', 'expense']:
+        raise ValueError(f"Ungültiger Transaktionstyp: {type}. Muss 'income' oder 'expense' sein.")
     conn = sqlite3.connect('finance.db')
     c = conn.cursor()
-    date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    c.execute('INSERT INTO transactions (amount, category, description, type, date) VALUES (?, ?, ?, ?, ?)',
-                (amount, category, description, type, date))
+    date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    c.execute("INSERT INTO transactions (amount, category, description, type, date) VALUES (?, ?, ?, ?, ?)",
+              (amount, category, description, type, date))
     conn.commit()
     conn.close()
 
