@@ -1,32 +1,16 @@
-import requests
 from flask import Flask, render_template, request, redirect, url_for
 from database import init_db, add_transaction, get_transactions, delete_transaction
 
 app = Flask(__name__)
 
-# Konstante für die aktuelle Version
-CURRENT_VERSION = "1.0.0"  # Ändere dies bei jedem Update
-
 @app.route('/')
 def index():
     transactions = get_transactions()
     balance = sum(t[1] if t[4] == 'income' else -t[1] for t in transactions)
+    # Teile Transaktionen in Einnahmen und Ausgaben
     incomes = [t for t in transactions if t[4] == 'income']
     expenses = [t for t in transactions if t[4] == 'expense']
-
-    # Versionsprüfung
-    update_available = False
-    update_url = None
-    try:
-        response = requests.get("https://raw.githubusercontent.com/tynnee/finanz-tracker/main/version.txt")
-        latest_version = response.text.strip()
-        if latest_version > CURRENT_VERSION:
-            update_available = True
-            update_url = "https://github.com/tynnee/Finanztracker"  # Passe die URL an
-    except Exception as e:
-        print(f"Fehler bei der Versionsprüfung: {e}")  # Fehler wird nur geloggt, nicht angezeigt
-
-    return render_template('index.html', transactions=transactions, balance=balance, incomes=incomes, expenses=expenses, update_available=update_available, update_url=update_url)
+    return render_template('index.html', transactions=transactions, balance=balance, incomes=incomes, expenses=expenses)
 
 @app.route('/add', methods=['GET', 'POST'])
 def add():
