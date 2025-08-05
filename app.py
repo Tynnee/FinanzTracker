@@ -1,7 +1,11 @@
+import requests
 from flask import Flask, render_template, request, redirect, url_for
 from database import init_db, add_transaction, get_transactions, delete_transaction
 
 app = Flask(__name__)
+
+# Konstante für die aktuelle Version
+CURRENT_VERSION = "1.0.0"  # Ändere dies bei jedem Update
 
 @app.route('/')
 def index():
@@ -9,8 +13,20 @@ def index():
     balance = sum(t[1] if t[4] == 'income' else -t[1] for t in transactions)
     incomes = [t for t in transactions if t[4] == 'income']
     expenses = [t for t in transactions if t[4] == 'expense']
-    return render_template('index.html', transactions=transactions, balance=balance, incomes=incomes, expenses=expenses)
 
+    # Versionsprüfung
+    update_available = False
+    update_url = None
+    try:
+        response = requests.get("https://raw.githubusercontent.com/tynnee/finanz-tracker/main/version.txt")
+        latest_version = response.text.strip()
+        if latest_version > CURRENT_VERSION:
+            update_available = True
+            update_url = "https://github.com/tynnee/finanz-tracker/releases/latest"  # Passe die URL an
+    except Exception as e:
+        print(f"Fehler bei der Versionsprüfung: {e}")  # Fehler wird nur geloggt, nicht angezeigt
+
+    return render_template('index.html', transactions=transactions, balance=balance, incomes=incomes, expenses=expenses, update_available=update_available, update_url=update_url)
 
 @app.route('/add', methods=['GET', 'POST'])
 def add():
@@ -23,17 +39,15 @@ def add():
         return redirect(url_for('index'))
     return render_template('add_transaction.html')
 
-
 @app.route('/delete/<int:id>')
 def delete(id):
     try:
         delete_transaction(id)
         return redirect(url_for('index'))
     except Exception as e:
-        print(f"Fehler beim Löschen: {e}")  # Loggt den Fehler in die Konsole
+        print(f"Fehler beim Löschen: {e}")
         return "Fehler beim Löschen", 500
-
 
 if __name__ == '__main__':
     init_db()
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000, debug=False)
