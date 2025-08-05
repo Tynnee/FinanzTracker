@@ -2,38 +2,93 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finanze-Tracker</title>
+    <title>Finanz-Tracker</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        .column {
+            width: 48%;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
 </head>
 <body>
     <h1>Finanz-Tracker</h1>
-    <h3>aktueller Kontostand: {{ '%.2f' % balance }} €</h3>
+    <h3>aktueller Kontostand: {{ "%.2f" % balance }} €</h3>
     <a href="{{ url_for('add') }}">Neue Transaktion</a>
-    <table>
-        <thead>
-            <tr>
-                <th>Betrag</th>
-                <th>Kategorie</th>
-                <th>Beschreibung</th>
-                <th>Typ</th>
-                <th>Datum</th>
-                <th>Aktion</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for t in transactions %}
-            <tr>
-                <td>{{ "%.2f" % t[1] }} €</td> <!-- Betrag (Index 1) -->
-                <td>{{ t[2] }}</td> <!-- Kategorie (Index 2) -->
-                <td>{{ t[3] or '-' }}</td> <!-- Beschreibung (Index 3), fallback mit '-' -->
-                <td>{{ t[4] }}</td> <!-- Typ (Index 4) -->
-                <td>{{ t[5] }}</td> <!-- Datum (Index 5) -->
-                <td><a href="{{ url_for('delete', id=t[0]) }}">Löschen</a></td> <!-- Aktion mit ID (Index 0) -->
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+
+    <div class="container">
+        <div class="column">
+            <h2>Einnahmen</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Betrag</th>
+                        <th>Kategorie</th>
+                        <th>Beschreibung</th>
+                        <th>Datum</th>
+                        <th>Aktion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for t in incomes %}
+                    <tr>
+                        <td>{{ "%.2f" % t[1] }} €</td>
+                        <td>{{ t[2] }}</td>
+                        <td>{{ t[3] or '-' }}</td>
+                        <td>{{ t[5] }}</td>
+                        <td><a href="{{ url_for('delete', id=t[0]) }}">Löschen</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <div class="column">
+            <h2>Ausgaben</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Betrag</th>
+                        <th>Kategorie</th>
+                        <th>Beschreibung</th>
+                        <th>Datum</th>
+                        <th>Aktion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for t in expenses %}
+                    <tr>
+                        <td>{{ "%.2f" % t[1] }} €</td>
+                        <td>{{ t[2] }}</td>
+                        <td>{{ t[3] or '-' }}</td>
+                        <td>{{ t[5] }}</td>
+                        <td><a href="{{ url_for('delete', id=t[0]) }}">Löschen</a></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
     <script src="{{ url_for('static', filename='js/main.js') }}"></script>
 </body>
 </html>

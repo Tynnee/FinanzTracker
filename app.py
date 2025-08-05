@@ -7,7 +7,9 @@ app = Flask(__name__)
 def index():
     transactions = get_transactions()
     balance = sum(t[1] if t[4] == 'income' else -t[1] for t in transactions)
-    return render_template('index.html', transactions=transactions, balance=balance)
+    incomes = [t for t in transactions if t[4] == 'income']
+    expenses = [t for t in transactions if t[4] == 'expense']
+    return render_template('index.html', transactions=transactions, balance=balance, incomes=incomes, expenses=expenses)
 
 
 @app.route('/add', methods=['GET', 'POST'])
