@@ -6,4 +6,4 @@ Eine einfache WebApp zum Verfolgen von Einnahmen und Ausgaben, gebaut mit Flask 
 
 1. Klone das Repository:
    ```bash
-   git clone https://github.com/Tynnee/FinanzTracker
+   git clone https://github.com/Tynnee/Finanztracker
