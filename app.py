@@ -9,10 +9,27 @@ def index():
     balance = sum(t[1] if t[4] == 'income' else -t[1] for t in transactions)
     incomes = [t for t in transactions if t[4] == 'income']
     expenses = [t for t in transactions if t[4] == 'expense']
-    print(f"Alle Transaktionen: {transactions}")  # Debug: Alle Transaktionen
-    print(f"Einnahmen: {incomes}")  # Debug: Nur Einnahmen
-    print(f"Ausgaben: {expenses}")  # Debug: Nur Ausgaben
-    return render_template('index.html', transactions=transactions, balance=balance, incomes=incomes, expenses=expenses)
+    print(f"Alle Transaktionen: {transactions}")
+    print(f"Einnahmen: {incomes}")
+    print(f"Ausgaben: {expenses}")
+
+    # Kategorienübersicht für Ausgaben
+    category_summary = {}
+    for t in expenses:
+        category = t[2]
+        category_summary[category] = category_summary.get(category, 0) + t[1]
+    print(f"Kategorienübersicht: {category_summary}")  # Debug-Ausgabe
+    return render_template('index.html', transactions=transactions, balance=balance, incomes=incomes, expenses=expenses, category_summary=category_summary)
+
+@app.route('/category_overview')
+def category_overview():
+    transactions = get_transactions()
+    expenses = [t for t in transactions if t[4] == 'expense']
+    category_summary = {}
+    for t in expenses:
+        category = t[2]
+        category_summary[category] = category_summary.get(category, 0) + t[1]
+    return render_template('category_overview.html', category_summary=category_summary)
 
 @app.route('/add', methods=['GET', 'POST'])
 def add():
@@ -36,4 +53,4 @@ def delete(id):
 
 if __name__ == '__main__':
     init_db()
-    app.run(host='0.0.0.0', port=5000, debug=False)
+    app.run(host='0.0.0.0', port=5000, debug=True)

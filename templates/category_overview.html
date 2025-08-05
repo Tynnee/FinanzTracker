@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kategorienübersicht</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Kategorienübersicht</h1>
+        <a href="{{ url_for('index') }}" class="btn">Zurück zur Übersicht</a>
+    </header>
+
+    <main class="container" style="justify-content: center; width: 90%; padding: 20px;">
+        <section class="column" style="width: 100%; max-width: none; padding: 20px;">
+            <h2>Ausgaben nach Kategorien</h2>
+            {% if category_summary is defined and category_summary %}
+                <div id="chart-container" style="width: 100%; height: 600px; position: relative; border: 1px solid #ccc;">
+                    <script type="text/javascript">
+                        // Sicherstellen, dass die Variablen korrekt initialisiert sind
+                        var labels = {{ category_summary.keys()|list|tojson|safe or '[]' }};
+                        var dataValues = {{ category_summary.values()|list|tojson|safe or '[]' }};
+                        console.log('Labels:', labels);
+                        console.log('Data Values:', dataValues);
+
+                        // Fehlerbehandlung und Diagramm-Rendering
+                        if (!Array.isArray(labels) || labels.length === 0 || !Array.isArray(dataValues) || dataValues.length === 0) {
+                            document.getElementById('chart-container').innerHTML = '<p>Keine Daten verfügbar.</p>';
+                        } else {
+                            try {
+                                var trace = {
+                                    x: labels,
+                                    y: dataValues,
+                                    type: 'bar',
+                                    marker: { color: 'rgba(54, 162, 235, 0.6)' }
+                                };
+                                var layout = {
+                                    title: 'Ausgaben pro Kategorie (€)',
+                                    yaxis: { title: 'Betrag (€)', zeroline: true },
+                                    width: Math.min(window.innerWidth * 0.9, 1200) // Maximale Breite anpassen
+                                };
+                                Plotly.newPlot('chart-container', [trace], layout);
+                            } catch (e) {
+                                console.error('Fehler beim Rendern des Diagramms:', e);
+                                document.getElementById('chart-container').innerHTML = '<p>Fehler beim Laden des Diagramms.</p>';
+                            }
+                        }
+                    </script>
+                </div>
+            {% else %}
+                <p class="no-data">Keine Ausgaben vorhanden.</p>
+            {% endif %}
+        </section>
+    </main>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>

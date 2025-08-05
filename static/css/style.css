@@ -63,25 +63,21 @@ header #balance {
 }
 
 .container {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
     animation: slideUp 0.5s ease-out;
+    align-content: start;
 }
 
-
 .column {
-    width: 48%;
-    float: left;
-    margin-right: 4%;
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.column:last-child {
-    margin-right: 0;
+    height: auto;
 }
 
 .column h2 {
@@ -93,8 +89,8 @@ header #balance {
 .card-container {
     display: grid;
     gap: 15px;
-    min-height: 0; /* Keine minimale Höhe */
-    padding-bottom: 0; /* Entfernt unnötigen Padding */
+    min-height: 0;
+    padding-bottom: 0;
 }
 
 .card {
@@ -139,10 +135,11 @@ header #balance {
 }
 
 @media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
     .column {
         width: 100%;
-        float: none;
-        margin-right: 0;
     }
 }
 
