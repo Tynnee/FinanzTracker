@@ -22,7 +22,7 @@ def index():
         latest_version = response.text.strip()
         if latest_version > CURRENT_VERSION:
             update_available = True
-            update_url = "https://github.com/tynnee/finanz-tracker/releases/latest"  # Passe die URL an
+            update_url = "https://github.com/tynnee/finanz-tracker"  # Passe die URL an
     except Exception as e:
         print(f"Fehler bei der Versionsprüfung: {e}")  # Fehler wird nur geloggt, nicht angezeigt
 
