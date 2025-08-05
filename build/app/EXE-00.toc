@@ -231,6 +231,9 @@
   ('libreadline.so.8', '/usr/lib/libreadline.so.8', 'BINARY'),
   ('libsqlite3.so.0', '/usr/lib/libsqlite3.so.0', 'BINARY'),
   ('libuuid.so.1', '/usr/lib/libuuid.so.1', 'BINARY'),
+  ('finance.db',
+   '/home/tynnee/Schreibtisch/Python Devs/FinanzTracker/finance.db',
+   'DATA'),
   ('static/css/style.css',
    '/home/tynnee/Schreibtisch/Python Devs/FinanzTracker/static/css/style.css',
    'DATA'),
@@ -244,26 +247,6 @@
   ('templates/index.html',
    '/home/tynnee/Schreibtisch/Python Devs/FinanzTracker/templates/index.html',
    'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
-   'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA',
-   'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
-   'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
-   'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
-   'DATA'),
   ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE',
@@ -272,114 +255,54 @@
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt',
    'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
+   'DATA'),
   ('setuptools/_vendor/jaraco/text/Lorem ipsum.txt',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco/text/Lorem '
    'ipsum.txt',
    'DATA'),
-  ('flask-3.1.1.dist-info/REQUESTED',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/REQUESTED',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info/METADATA',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/METADATA',
-   'DATA'),
-  ('flask-3.1.1.dist-info/entry_points.txt',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/entry_points.txt',
-   'DATA'),
-  ('itsdangerous-2.2.0.dist-info/RECORD',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/RECORD',
-   'DATA'),
-  ('flask-3.1.1.dist-info/RECORD',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/RECORD',
-   'DATA'),
   ('itsdangerous-2.2.0.dist-info/INSTALLER',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/INSTALLER',
-   'DATA'),
-  ('click-8.2.1.dist-info/METADATA',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/METADATA',
-   'DATA'),
-  ('MarkupSafe-3.0.2.dist-info/top_level.txt',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/top_level.txt',
    'DATA'),
   ('MarkupSafe-3.0.2.dist-info/INSTALLER',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/INSTALLER',
    'DATA'),
-  ('itsdangerous-2.2.0.dist-info/METADATA',
+  ('flask-3.1.1.dist-info/INSTALLER',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/METADATA',
-   'DATA'),
-  ('click-8.2.1.dist-info/licenses/LICENSE.txt',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/licenses/LICENSE.txt',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info/LICENSE.txt',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/LICENSE.txt',
-   'DATA'),
-  ('itsdangerous-2.2.0.dist-info/LICENSE.txt',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/LICENSE.txt',
-   'DATA'),
-  ('click-8.2.1.dist-info/RECORD',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/RECORD',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info/INSTALLER',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/INSTALLER',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info/RECORD',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/RECORD',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info/WHEEL',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/WHEEL',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/INSTALLER',
    'DATA'),
   ('click-8.2.1.dist-info/INSTALLER',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/INSTALLER',
    'DATA'),
-  ('flask-3.1.1.dist-info/INSTALLER',
+  ('flask-3.1.1.dist-info/entry_points.txt',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/INSTALLER',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/entry_points.txt',
    'DATA'),
-  ('flask-3.1.1.dist-info/licenses/LICENSE.txt',
+  ('click-8.2.1.dist-info/licenses/LICENSE.txt',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/licenses/LICENSE.txt',
-   'DATA'),
-  ('MarkupSafe-3.0.2.dist-info/LICENSE.txt',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/LICENSE.txt',
-   'DATA'),
-  ('MarkupSafe-3.0.2.dist-info/METADATA',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/METADATA',
-   'DATA'),
-  ('MarkupSafe-3.0.2.dist-info/WHEEL',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/WHEEL',
-   'DATA'),
-  ('itsdangerous-2.2.0.dist-info/WHEEL',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/WHEEL',
-   'DATA'),
-  ('flask-3.1.1.dist-info/WHEEL',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/WHEEL',
-   'DATA'),
-  ('click-8.2.1.dist-info/WHEEL',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/WHEEL',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/licenses/LICENSE.txt',
    'DATA'),
   ('MarkupSafe-3.0.2.dist-info/RECORD',
    '/home/tynnee/Schreibtisch/Python '
@@ -389,6 +312,86 @@
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/METADATA',
    'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/METADATA',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/METADATA',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/WHEEL',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/WHEEL',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/RECORD',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/RECORD',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/WHEEL',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/WHEEL',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/RECORD',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/RECORD',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/LICENSE.txt',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/LICENSE.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/WHEEL',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/WHEEL',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/INSTALLER',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/INSTALLER',
+   'DATA'),
+  ('flask-3.1.1.dist-info/REQUESTED',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/REQUESTED',
+   'DATA'),
+  ('flask-3.1.1.dist-info/RECORD',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/RECORD',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/METADATA',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/METADATA',
+   'DATA'),
+  ('click-8.2.1.dist-info/METADATA',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/METADATA',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/top_level.txt',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/top_level.txt',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/LICENSE.txt',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/LICENSE.txt',
+   'DATA'),
+  ('flask-3.1.1.dist-info/licenses/LICENSE.txt',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/licenses/LICENSE.txt',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/METADATA',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/METADATA',
+   'DATA'),
+  ('click-8.2.1.dist-info/WHEEL',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/WHEEL',
+   'DATA'),
+  ('click-8.2.1.dist-info/RECORD',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/RECORD',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/LICENSE.txt',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/LICENSE.txt',
+   'DATA'),
+  ('flask-3.1.1.dist-info/WHEEL',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/WHEEL',
+   'DATA'),
   ('base_library.zip',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/build/app/base_library.zip',
@@ -396,7 +399,7 @@
  [],
  False,
  False,
- 1754382267,
+ 1754383963,
  [('run',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/PyInstaller/bootloader/Linux-64bit-intel/run',
