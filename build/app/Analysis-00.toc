@@ -1172,8 +1172,8 @@
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/_distutils_hack/override.py',
    'PYMODULE'),
-  ('stringprep', '/usr/lib/python3.13/stringprep.py', 'PYMODULE'),
   ('tracemalloc', '/usr/lib/python3.13/tracemalloc.py', 'PYMODULE'),
+  ('stringprep', '/usr/lib/python3.13/stringprep.py', 'PYMODULE'),
   ('_py_abc', '/usr/lib/python3.13/_py_abc.py', 'PYMODULE'),
   ('database',
    '/home/tynnee/Schreibtisch/Python Devs/FinanzTracker/database.py',
@@ -1663,6 +1663,283 @@
   ('flask.json',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask/json/__init__.py',
+   'PYMODULE'),
+  ('requests',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/__init__.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/structures.py',
+   'PYMODULE'),
+  ('requests.compat',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/compat.py',
+   'PYMODULE'),
+  ('http.cookies', '/usr/lib/python3.13/http/cookies.py', 'PYMODULE'),
+  ('requests.models',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/models.py',
+   'PYMODULE'),
+  ('idna',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/__init__.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/package_data.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/intranges.py',
+   'PYMODULE'),
+  ('idna.core',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/core.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/uts46data.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/idnadata.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/hooks.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/cookies.py',
+   'PYMODULE'),
+  ('requests.auth',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/auth.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/_internal_utils.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/wait.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/util.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/retry.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/response.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/connection.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/_version.py',
+   'PYMODULE'),
+  ('urllib3.http2.probe',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/http2/probe.py',
+   'PYMODULE'),
+  ('urllib3.http2',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/http2/__init__.py',
+   'PYMODULE'),
+  ('urllib3.http2.connection',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/http2/connection.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/_collections.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/_base_connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/proxy.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/_request_methods.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/response.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/request.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/connection.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/filepost.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/fields.py',
+   'PYMODULE'),
+  ('requests.api',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/api.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/sessions.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/adapters.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/socks.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/poolmanager.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/__version__.py',
+   'PYMODULE'),
+  ('requests.utils',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/utils.py',
+   'PYMODULE'),
+  ('requests.certs',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/certs.py',
+   'PYMODULE'),
+  ('certifi',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/certifi/__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/certifi/core.py',
+   'PYMODULE'),
+  ('requests.packages',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/packages.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/exceptions.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/version.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/models.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/api.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/exceptions.py',
+   'PYMODULE'),
+  ('urllib3',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/emscripten/__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.connection',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/emscripten/connection.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.response',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/emscripten/response.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.request',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/emscripten/request.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.fetch',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/emscripten/fetch.py',
    'PYMODULE')],
  [('libpython3.13.so.1.0', '/usr/lib/libpython3.13.so.1.0', 'BINARY'),
   ('libobjc.so.4', '/usr/lib/libobjc.so.4', 'BINARY'),
@@ -1826,6 +2103,14 @@
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/markupsafe/_speedups.cpython-313-x86_64-linux-gnu.so',
    'EXTENSION'),
+  ('charset_normalizer/md__mypyc.cpython-313-x86_64-linux-gnu.so',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/md__mypyc.cpython-313-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('charset_normalizer/md.cpython-313-x86_64-linux-gnu.so',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/md.cpython-313-x86_64-linux-gnu.so',
+   'EXTENSION'),
   ('libgcc_s.so.1', '/usr/lib/libgcc_s.so.1', 'BINARY'),
   ('libmpdec.so.4', '/usr/lib/libmpdec.so.4', 'BINARY'),
   ('libcrypto.so.3', '/usr/lib/libcrypto.so.3', 'BINARY'),
@@ -1854,82 +2139,98 @@
   ('templates/index.html',
    '/home/tynnee/Schreibtisch/Python Devs/FinanzTracker/templates/index.html',
    'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE',
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE',
-   'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
    'DATA'),
   ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/top_level.txt',
    'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/REQUESTED',
    'DATA'),
   ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/METADATA',
    'DATA'),
-  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/WHEEL',
-   'DATA'),
   ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/INSTALLER',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/LICENSE',
+   'DATA'),
+  ('setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/importlib_metadata-8.0.0.dist-info/RECORD',
    'DATA'),
   ('setuptools/_vendor/jaraco/text/Lorem ipsum.txt',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/setuptools/_vendor/jaraco/text/Lorem '
    'ipsum.txt',
    'DATA'),
-  ('flask-3.1.1.dist-info/INSTALLER',
+  ('certifi/cacert.pem',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/INSTALLER',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/certifi/cacert.pem',
    'DATA'),
-  ('itsdangerous-2.2.0.dist-info/LICENSE.txt',
+  ('certifi/py.typed',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/LICENSE.txt',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/certifi/py.typed',
    'DATA'),
-  ('flask-3.1.1.dist-info/RECORD',
+  ('MarkupSafe-3.0.2.dist-info/WHEEL',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/RECORD',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/WHEEL',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/METADATA',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/METADATA',
    'DATA'),
   ('werkzeug-3.1.3.dist-info/WHEEL',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/WHEEL',
    'DATA'),
-  ('click-8.2.1.dist-info/WHEEL',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/WHEEL',
-   'DATA'),
-  ('click-8.2.1.dist-info/licenses/LICENSE.txt',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/licenses/LICENSE.txt',
-   'DATA'),
-  ('flask-3.1.1.dist-info/licenses/LICENSE.txt',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/licenses/LICENSE.txt',
-   'DATA'),
-  ('click-8.2.1.dist-info/INSTALLER',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/INSTALLER',
-   'DATA'),
   ('flask-3.1.1.dist-info/entry_points.txt',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/entry_points.txt',
+   'DATA'),
+  ('click-8.2.1.dist-info/METADATA',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/METADATA',
+   'DATA'),
+  ('flask-3.1.1.dist-info/RECORD',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/RECORD',
+   'DATA'),
+  ('werkzeug-3.1.3.dist-info/RECORD',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/RECORD',
+   'DATA'),
+  ('itsdangerous-2.2.0.dist-info/WHEEL',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/WHEEL',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/METADATA',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/METADATA',
+   'DATA'),
+  ('flask-3.1.1.dist-info/WHEEL',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/WHEEL',
+   'DATA'),
+  ('flask-3.1.1.dist-info/INSTALLER',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/INSTALLER',
    'DATA'),
   ('werkzeug-3.1.3.dist-info/LICENSE.txt',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/LICENSE.txt',
    'DATA'),
-  ('click-8.2.1.dist-info/RECORD',
+  ('werkzeug-3.1.3.dist-info/INSTALLER',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/RECORD',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/INSTALLER',
    'DATA'),
   ('flask-3.1.1.dist-info/REQUESTED',
    '/home/tynnee/Schreibtisch/Python '
@@ -1939,74 +2240,78 @@
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/METADATA',
    'DATA'),
-  ('MarkupSafe-3.0.2.dist-info/top_level.txt',
+  ('click-8.2.1.dist-info/WHEEL',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/top_level.txt',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info/METADATA',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/METADATA',
-   'DATA'),
-  ('click-8.2.1.dist-info/METADATA',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/METADATA',
-   'DATA'),
-  ('MarkupSafe-3.0.2.dist-info/METADATA',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/METADATA',
-   'DATA'),
-  ('MarkupSafe-3.0.2.dist-info/WHEEL',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/WHEEL',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/WHEEL',
    'DATA'),
   ('itsdangerous-2.2.0.dist-info/RECORD',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/RECORD',
    'DATA'),
-  ('itsdangerous-2.2.0.dist-info/WHEEL',
+  ('click-8.2.1.dist-info/RECORD',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/WHEEL',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/RECORD',
    'DATA'),
-  ('MarkupSafe-3.0.2.dist-info/RECORD',
+  ('werkzeug-3.1.3.dist-info/METADATA',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/RECORD',
-   'DATA'),
-  ('itsdangerous-2.2.0.dist-info/METADATA',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/METADATA',
-   'DATA'),
-  ('werkzeug-3.1.3.dist-info/RECORD',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/RECORD',
-   'DATA'),
-  ('flask-3.1.1.dist-info/WHEEL',
-   '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/WHEEL',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/METADATA',
    'DATA'),
   ('itsdangerous-2.2.0.dist-info/INSTALLER',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/INSTALLER',
    'DATA'),
-  ('MarkupSafe-3.0.2.dist-info/INSTALLER',
+  ('itsdangerous-2.2.0.dist-info/LICENSE.txt',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/INSTALLER',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/itsdangerous-2.2.0.dist-info/LICENSE.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/RECORD',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/RECORD',
+   'DATA'),
+  ('click-8.2.1.dist-info/INSTALLER',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/INSTALLER',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/top_level.txt',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/top_level.txt',
    'DATA'),
   ('MarkupSafe-3.0.2.dist-info/LICENSE.txt',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/LICENSE.txt',
    'DATA'),
-  ('werkzeug-3.1.3.dist-info/INSTALLER',
+  ('click-8.2.1.dist-info/licenses/LICENSE.txt',
    '/home/tynnee/Schreibtisch/Python '
-   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/werkzeug-3.1.3.dist-info/INSTALLER',
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click-8.2.1.dist-info/licenses/LICENSE.txt',
+   'DATA'),
+  ('flask-3.1.1.dist-info/licenses/LICENSE.txt',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/flask-3.1.1.dist-info/licenses/LICENSE.txt',
+   'DATA'),
+  ('MarkupSafe-3.0.2.dist-info/INSTALLER',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/MarkupSafe-3.0.2.dist-info/INSTALLER',
    'DATA'),
   ('base_library.zip',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/build/app/base_library.zip',
    'DATA')],
- [('linecache', '/usr/lib/python3.13/linecache.py', 'PYMODULE'),
-  ('os', '/usr/lib/python3.13/os.py', 'PYMODULE'),
-  ('types', '/usr/lib/python3.13/types.py', 'PYMODULE'),
-  ('functools', '/usr/lib/python3.13/functools.py', 'PYMODULE'),
+ [('locale', '/usr/lib/python3.13/locale.py', 'PYMODULE'),
+  ('_weakrefset', '/usr/lib/python3.13/_weakrefset.py', 'PYMODULE'),
+  ('keyword', '/usr/lib/python3.13/keyword.py', 'PYMODULE'),
+  ('operator', '/usr/lib/python3.13/operator.py', 'PYMODULE'),
+  ('sre_constants', '/usr/lib/python3.13/sre_constants.py', 'PYMODULE'),
+  ('warnings', '/usr/lib/python3.13/warnings.py', 'PYMODULE'),
+  ('sre_parse', '/usr/lib/python3.13/sre_parse.py', 'PYMODULE'),
+  ('stat', '/usr/lib/python3.13/stat.py', 'PYMODULE'),
+  ('io', '/usr/lib/python3.13/io.py', 'PYMODULE'),
+  ('posixpath', '/usr/lib/python3.13/posixpath.py', 'PYMODULE'),
+  ('collections', '/usr/lib/python3.13/collections/__init__.py', 'PYMODULE'),
+  ('re._parser', '/usr/lib/python3.13/re/_parser.py', 'PYMODULE'),
+  ('re._constants', '/usr/lib/python3.13/re/_constants.py', 'PYMODULE'),
+  ('re._compiler', '/usr/lib/python3.13/re/_compiler.py', 'PYMODULE'),
+  ('re._casefix', '/usr/lib/python3.13/re/_casefix.py', 'PYMODULE'),
+  ('re', '/usr/lib/python3.13/re/__init__.py', 'PYMODULE'),
   ('encodings.zlib_codec',
    '/usr/lib/python3.13/encodings/zlib_codec.py',
    'PYMODULE'),
@@ -2237,31 +2542,19 @@
   ('encodings.ascii', '/usr/lib/python3.13/encodings/ascii.py', 'PYMODULE'),
   ('encodings.aliases', '/usr/lib/python3.13/encodings/aliases.py', 'PYMODULE'),
   ('encodings', '/usr/lib/python3.13/encodings/__init__.py', 'PYMODULE'),
-  ('_collections_abc', '/usr/lib/python3.13/_collections_abc.py', 'PYMODULE'),
-  ('warnings', '/usr/lib/python3.13/warnings.py', 'PYMODULE'),
-  ('sre_parse', '/usr/lib/python3.13/sre_parse.py', 'PYMODULE'),
-  ('heapq', '/usr/lib/python3.13/heapq.py', 'PYMODULE'),
-  ('collections', '/usr/lib/python3.13/collections/__init__.py', 'PYMODULE'),
-  ('codecs', '/usr/lib/python3.13/codecs.py', 'PYMODULE'),
-  ('re._parser', '/usr/lib/python3.13/re/_parser.py', 'PYMODULE'),
-  ('re._constants', '/usr/lib/python3.13/re/_constants.py', 'PYMODULE'),
-  ('re._compiler', '/usr/lib/python3.13/re/_compiler.py', 'PYMODULE'),
-  ('re._casefix', '/usr/lib/python3.13/re/_casefix.py', 'PYMODULE'),
-  ('re', '/usr/lib/python3.13/re/__init__.py', 'PYMODULE'),
-  ('keyword', '/usr/lib/python3.13/keyword.py', 'PYMODULE'),
-  ('ntpath', '/usr/lib/python3.13/ntpath.py', 'PYMODULE'),
-  ('genericpath', '/usr/lib/python3.13/genericpath.py', 'PYMODULE'),
-  ('sre_constants', '/usr/lib/python3.13/sre_constants.py', 'PYMODULE'),
-  ('abc', '/usr/lib/python3.13/abc.py', 'PYMODULE'),
-  ('locale', '/usr/lib/python3.13/locale.py', 'PYMODULE'),
-  ('sre_compile', '/usr/lib/python3.13/sre_compile.py', 'PYMODULE'),
-  ('traceback', '/usr/lib/python3.13/traceback.py', 'PYMODULE'),
-  ('stat', '/usr/lib/python3.13/stat.py', 'PYMODULE'),
-  ('operator', '/usr/lib/python3.13/operator.py', 'PYMODULE'),
   ('copyreg', '/usr/lib/python3.13/copyreg.py', 'PYMODULE'),
-  ('enum', '/usr/lib/python3.13/enum.py', 'PYMODULE'),
-  ('io', '/usr/lib/python3.13/io.py', 'PYMODULE'),
-  ('posixpath', '/usr/lib/python3.13/posixpath.py', 'PYMODULE'),
-  ('_weakrefset', '/usr/lib/python3.13/_weakrefset.py', 'PYMODULE'),
+  ('os', '/usr/lib/python3.13/os.py', 'PYMODULE'),
+  ('reprlib', '/usr/lib/python3.13/reprlib.py', 'PYMODULE'),
+  ('_collections_abc', '/usr/lib/python3.13/_collections_abc.py', 'PYMODULE'),
+  ('traceback', '/usr/lib/python3.13/traceback.py', 'PYMODULE'),
+  ('genericpath', '/usr/lib/python3.13/genericpath.py', 'PYMODULE'),
+  ('heapq', '/usr/lib/python3.13/heapq.py', 'PYMODULE'),
+  ('sre_compile', '/usr/lib/python3.13/sre_compile.py', 'PYMODULE'),
+  ('ntpath', '/usr/lib/python3.13/ntpath.py', 'PYMODULE'),
   ('weakref', '/usr/lib/python3.13/weakref.py', 'PYMODULE'),
-  ('reprlib', '/usr/lib/python3.13/reprlib.py', 'PYMODULE')])
+  ('types', '/usr/lib/python3.13/types.py', 'PYMODULE'),
+  ('codecs', '/usr/lib/python3.13/codecs.py', 'PYMODULE'),
+  ('enum', '/usr/lib/python3.13/enum.py', 'PYMODULE'),
+  ('linecache', '/usr/lib/python3.13/linecache.py', 'PYMODULE'),
+  ('abc', '/usr/lib/python3.13/abc.py', 'PYMODULE'),
+  ('functools', '/usr/lib/python3.13/functools.py', 'PYMODULE')])

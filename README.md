@@ -15,3 +15,4 @@ Gehe in den dist Ordner und führe die app.exe aus
 Für Linux nutzer:
 Gehe im Terminal zu dem Verzeichnis wo Finanztracker liegt.
 Gehe in den Ornder dist und gebe den Befehl ein: chmod +x app
+Jetzt kannst du durch doppelklick die Anwendung starten.

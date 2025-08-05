@@ -153,6 +153,46 @@
    'PYMODULE'),
   ('bz2', '/usr/lib/python3.13/bz2.py', 'PYMODULE'),
   ('calendar', '/usr/lib/python3.13/calendar.py', 'PYMODULE'),
+  ('certifi',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/certifi/__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/certifi/core.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/api.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/models.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/charset_normalizer/version.py',
+   'PYMODULE'),
   ('click',
    '/home/tynnee/Schreibtisch/Python '
    'Devs/FinanzTracker/venv/lib/python3.13/site-packages/click/__init__.py',
@@ -396,7 +436,32 @@
   ('http', '/usr/lib/python3.13/http/__init__.py', 'PYMODULE'),
   ('http.client', '/usr/lib/python3.13/http/client.py', 'PYMODULE'),
   ('http.cookiejar', '/usr/lib/python3.13/http/cookiejar.py', 'PYMODULE'),
+  ('http.cookies', '/usr/lib/python3.13/http/cookies.py', 'PYMODULE'),
   ('http.server', '/usr/lib/python3.13/http/server.py', 'PYMODULE'),
+  ('idna',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/core.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/idnadata.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/intranges.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/package_data.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/idna/uts46data.py',
+   'PYMODULE'),
   ('importlib', '/usr/lib/python3.13/importlib/__init__.py', 'PYMODULE'),
   ('importlib._abc', '/usr/lib/python3.13/importlib/_abc.py', 'PYMODULE'),
   ('importlib._bootstrap',
@@ -742,6 +807,74 @@
   ('queue', '/usr/lib/python3.13/queue.py', 'PYMODULE'),
   ('quopri', '/usr/lib/python3.13/quopri.py', 'PYMODULE'),
   ('random', '/usr/lib/python3.13/random.py', 'PYMODULE'),
+  ('requests',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/__init__.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/__version__.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/_internal_utils.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/adapters.py',
+   'PYMODULE'),
+  ('requests.api',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/api.py',
+   'PYMODULE'),
+  ('requests.auth',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/auth.py',
+   'PYMODULE'),
+  ('requests.certs',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/certs.py',
+   'PYMODULE'),
+  ('requests.compat',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/compat.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/cookies.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/exceptions.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/hooks.py',
+   'PYMODULE'),
+  ('requests.models',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/models.py',
+   'PYMODULE'),
+  ('requests.packages',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/packages.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/sessions.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/structures.py',
+   'PYMODULE'),
+  ('requests.utils',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/requests/utils.py',
+   'PYMODULE'),
   ('rlcompleter', '/usr/lib/python3.13/rlcompleter.py', 'PYMODULE'),
   ('runpy', '/usr/lib/python3.13/runpy.py', 'PYMODULE'),
   ('secrets', '/usr/lib/python3.13/secrets.py', 'PYMODULE'),
@@ -1406,6 +1539,150 @@
   ('urllib.parse', '/usr/lib/python3.13/urllib/parse.py', 'PYMODULE'),
   ('urllib.request', '/usr/lib/python3.13/urllib/request.py', 'PYMODULE'),
   ('urllib.response', '/usr/lib/python3.13/urllib/response.py', 'PYMODULE'),
+  ('urllib3',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/__init__.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/_base_connection.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/_collections.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/_request_methods.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/_version.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/emscripten/__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.connection',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/emscripten/connection.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.fetch',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/emscripten/fetch.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.request',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/emscripten/request.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.response',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/emscripten/response.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/contrib/socks.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/exceptions.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/fields.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/filepost.py',
+   'PYMODULE'),
+  ('urllib3.http2',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/http2/__init__.py',
+   'PYMODULE'),
+  ('urllib3.http2.connection',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/http2/connection.py',
+   'PYMODULE'),
+  ('urllib3.http2.probe',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/http2/probe.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/poolmanager.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/response.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/connection.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/proxy.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/request.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/response.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/retry.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/util.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   '/home/tynnee/Schreibtisch/Python '
+   'Devs/FinanzTracker/venv/lib/python3.13/site-packages/urllib3/util/wait.py',
+   'PYMODULE'),
   ('uuid', '/usr/lib/python3.13/uuid.py', 'PYMODULE'),
   ('webbrowser', '/usr/lib/python3.13/webbrowser.py', 'PYMODULE'),
   ('werkzeug',
