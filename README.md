@@ -18,12 +18,12 @@ Die Datenbank wird lokal gespeichert und die Anwendung läuft auch lokal. Es wer
 
 
 Für Windows Nutzer:
-Gehe in den dist Ordner und führe die app.exe aus
+Gehe in den Ordner Windows-Version und dann in den Ordner dist und führe die app.exe aus
 Gebe anschließend 127.0.0.1:5000 in den Browser ein
 
 
 Für Linux nutzer:
 Gehe im Terminal zu dem Verzeichnis wo Finanztracker liegt.
-Gehe in den Ornder dist und gebe den Befehl ein: chmod +x app
+Gehe in den Ordner Windows-Version und dann in den Ordner dist und gebe den Befehl ein: chmod +x app
 Jetzt kannst du durch doppelklick die Anwendung starten.
 Gebe anschließend 127.0.0.1:5000 in den Browser ein
