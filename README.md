@@ -2,9 +2,17 @@
 
 Eine einfache WebApp zum Verfolgen von Einnahmen und Ausgaben, gebaut mit Flask und SQLite.
 
+Die Datenbank wird lokal gespeichert und die Anwendung läuft auch lokal. Es werden keine Daten nach außen gesendet.
+
 ## Installation
 
 1. Klone das Repository:
+   Gehe ins Terminal und kopiere diesen Link hinein.
+   Windosw-Nutzer müssen vorher Git installieren.
+   
+   ```bash
+   https://git-scm.com/downloads
+
    ```bash
    git clone https://github.com/Tynnee/Finanztracker
 
