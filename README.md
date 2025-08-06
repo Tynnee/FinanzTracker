@@ -8,13 +8,14 @@ Die Datenbank wird lokal gespeichert und die Anwendung läuft auch lokal. Es wer
 
 1. Klone das Repository:
    Gehe ins Terminal und kopiere diesen Link hinein.
-   Windosw-Nutzer müssen vorher Git installieren.
-   
+   ```bash
+   git clone https://github.com/Tynnee/Finanztracker
+
+2. Sollten Sie Windows nutzen, müssen Sie vorher Git installieren:
    ```bash
    https://git-scm.com/downloads
 
-   ```bash
-   git clone https://github.com/Tynnee/Finanztracker
+
 
 Für Windows Nutzer:
 Gehe in den dist Ordner und führe die app.exe aus
